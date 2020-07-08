@@ -7,7 +7,7 @@ set (CMAKE_CXX_STANDARD 11)
 set (CMAKE_BUILD_TYPE "DEBUG")
 set (ARROW_BUILD_SHARED OFF)
 set (ARROW_BUILD_STATIC ON)
-set(ARROW_IPC ON)
+set (ARROW_IPC ON)
 
 add_subdirectory("arrow/cpp")
 include_directories("arrow/cpp/src")
